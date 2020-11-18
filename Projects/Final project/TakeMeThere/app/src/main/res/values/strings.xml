@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">My Version</string>
-    <string name="google_map_api_key">AIzaSyAEV0oxUjVYYVqEOZMsCtLSocYKsI26ToA</string>
+    <string name="google_map_api_key"></string>
     <string name="title_activity_welcome_page">welcomePage</string>
 </resources>
