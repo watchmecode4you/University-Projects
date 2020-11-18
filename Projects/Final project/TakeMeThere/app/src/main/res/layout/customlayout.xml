@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="26dp"
+        app:srcCompat="@drawable/customer_icon" />
+
+    <TextView
+        android:id="@+id/textView_CustName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_marginLeft="117dp"
+        android:layout_marginStart="117dp"
+        android:text="TextView"
+        android:textSize="25dp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/textView2_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_CustName"
+        android:layout_alignStart="@+id/textView_CustName"
+        android:layout_below="@+id/textView_CustName"
+        android:text="TextView"
+        android:textSize="10dp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/textView3_idCustomer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView_CustName"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="67dp"
+        android:layout_marginEnd="67dp"
+        android:text="TextView"
+        android:textColor="#ffffff"
+        android:visibility="invisible"
+        />
+
+
+</RelativeLayout>

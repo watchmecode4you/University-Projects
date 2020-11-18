@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_interface">
+
+    <TextView
+        android:id="@+id/title"
+        android:text="CUSTOMER DETAILS"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        />
+
+    <EditText
+        android:id="@+id/firstNameET"
+        android:hint="First Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="5dp"
+        />
+
+    <EditText
+        android:id="@+id/lastNameET"
+        android:hint="Last Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="5dp"
+        />
+
+    <EditText
+        android:id="@+id/floorET"
+        android:hint="Floor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="5dp"
+        />
+
+    <EditText
+        android:id="@+id/buildingET"
+        android:hint="Building Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="5dp"
+        />
+
+    <Button
+        android:id="@+id/addCustomerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Customer"
+        android:textColor="#FFFFFF"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_edges"/>
+
+</LinearLayout>
